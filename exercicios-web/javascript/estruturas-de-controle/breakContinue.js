@@ -19,7 +19,7 @@ for(let y in nums) {
 console.log('Rotulo')
 externo: for(let a in nums) {
     for(let b in nums) {
-        if (a == 2 & b == 3) {
+        if (a == 2 && b == 3) {
             break externo // Sem o rotulo o break agiria sobre o for interno(for b)
         }
         console.log(`Par = ${nums[a]}, ${nums[b]}`)
